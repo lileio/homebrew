@@ -4,9 +4,10 @@ class Lile < Formula
   homepage ""
   url "https://github.com/lileio/lile/releases/download/v2.2.0-next/lile_2.2.0-next_Darwin_x86_64.tar.gz"
   version "2.2.0-next"
-  sha256 "2c7b1cad7d6275a1153491841a566b35067223d1c18f18f68e627764fe39fa5d"
+  sha256 "1081df46132b89d650d19a7fca096ef5d73cca9089f7690f4e06fb4e4c0e504e"
 
   def install
     bin.install "lile"
+    bin.install "protoc-gen-lile-server"
   end
 end
