@@ -2,16 +2,16 @@
 class Lile < Formula
   desc ""
   homepage ""
-  version "2.2.12"
+  version "2.2.13"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/lileio/lile/releases/download/v2.2.12/lile_2.2.12_Darwin_x86_64.tar.gz"
-    sha256 "c71c99afec11f7f0e5797953d26cfe5894d1ce3c0d4a1e4b9432fd4c86bfb45d"
+    url "https://github.com/lileio/lile/releases/download/v2.2.13/lile_2.2.13_Darwin_x86_64.tar.gz"
+    sha256 "b81e88d6935c07d6832e59768072320ea8ebbf75cde8baef6f9f8a5d82252642"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/lileio/lile/releases/download/v2.2.12/lile_2.2.12_Linux_x86_64.tar.gz"
-      sha256 "ae4f54d2d8654f5cfc1771145985f2d167d7e053b7c6b66eaa241e67a9eb94c7"
+      url "https://github.com/lileio/lile/releases/download/v2.2.13/lile_2.2.13_Linux_x86_64.tar.gz"
+      sha256 "eb109975833b55a7e7495df277db02009f5b77f054c2c9c3d5e6491d4ff75c03"
     end
   end
 
